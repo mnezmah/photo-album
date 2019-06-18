@@ -1,6 +1,7 @@
 export const NEW_HELLO_WORLD = 'NEW_HELLO_WORLD'
 export const ADD_ALBUM = 'ADD_ALBUM'
 export const SET_ALBUM = 'SET_ALBUM'
+// export const GET_ALBUMS = 'GET_ALBUMS'
 
 export function helloWorld(firstName, lastName) {
   return {
@@ -28,3 +29,10 @@ export function setAlbum (albums) {
     payload: albums
     }
   }
+
+  // export function getAlbums() {
+  //   return {
+  //     type : GET_ALBUMS,
+  //     payload: 
+  //   }
+  // }
